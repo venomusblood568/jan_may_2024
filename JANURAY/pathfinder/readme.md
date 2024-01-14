@@ -1,7 +1,4 @@
 
-Certainly! Below is the entire content of a README.md file that you can use for your Pygame project:
-
-```markdown
 
 # Pygame Pathfinding Visualizer
 
