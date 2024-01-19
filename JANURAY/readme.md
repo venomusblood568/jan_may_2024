@@ -11,3 +11,5 @@ Below is a chronological list of tasks and accomplishments.
 ### 1. YOLO V8
 
 ### 2. JS basics
+
+### 2. Pathfinder using Py
