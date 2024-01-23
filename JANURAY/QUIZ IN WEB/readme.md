@@ -7,3 +7,7 @@ This is a basic quiz website built using HTML, CSS, and JavaScript. The purpose 
 - `index.html`: Contains the structure and content of the website.
 - `style.css`: Defines the styles for the website.
 - `script.js`: Implements the quiz logic using JavaScript.
+
+## Sample Screenshot
+
+![WEBSITE SAMPLE](sample_quiz.png)
