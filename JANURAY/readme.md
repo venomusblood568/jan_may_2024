@@ -12,4 +12,6 @@ Below is a chronological list of tasks and accomplishments.
 
 ### 2. JS basics
 
-### 2. Pathfinder using Py
+### 3. Pathfinder using Py
+
+### 4. C [class material]
