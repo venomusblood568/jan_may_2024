@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM [imp]</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Create a div element
+    const div = document.createElement('div');
+
+    // Set the class, id, title, background color, and padding
+    div.className = "main";
+    div.id = Math.round(Math.random() * 10 + 1);
+    div.setAttribute("title", "generated title");
+    div.style.background = "green";
+    div.style.padding = "12px";
+
+    // Method 1: Set text content using innerText
+    div.innerText = "chai aur code";
+
+    // Method 2: Create a text node and append it to the div
+    const textNode = document.createTextNode(" Noodle aur main");
+    div.appendChild(textNode);
+
+    // Append the div to the body
+    document.body.appendChild(div);
+
+</script>
+</html>
