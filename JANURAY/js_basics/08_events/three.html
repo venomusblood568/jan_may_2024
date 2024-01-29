@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <h1 style="color: antiquewhite;">COFFEE HAI YA DOODH</h1>
+    <button id = "Start">START</button>
+    <button id = "Stop">STOP</button>
+</body>
+<script>
+
+    const saydate = function(str){
+        console.log(str,Date.now());
+    }
+
+    const intervalID = setInterval(saydate,1000,"mommy")
+
+    setTimeout(() => {
+        clearInterval(intervalID);
+        console.log("Interval cleared.The function will no longer be executed. ");
+    },5000);
+</script>
+</html>
