@@ -86,3 +86,62 @@ In summary, the incorrect floating-point constants are:
 (vii) 425E2.5
 (viti) 0045E + 6
 (ix) 1/2.2
+
+<br>
+Pick the incorrect identifiers from the following list. Explain why they are incorrect.
+* constant (ii) variable (iii) double (iv) Rs-ps
+(v) roll.no (vi) lambda (vii) lab man (viii) int result
+
+Let's analyze each identifier:
+
+(i) constant: This is a valid identifier. It consists of alphabetic characters and doesn't violate any naming conventions.
+
+(ii) variable: This is a valid identifier. It consists of alphabetic characters and doesn't violate any naming conventions.
+
+(iii) double: This is an incorrect identifier. "double" is a reserved keyword in many programming languages used to define double-precision floating-point variables. Using reserved keywords as identifiers is not allowed.
+
+(iv) Rs-ps: This is an incorrect identifier. Identifiers typically cannot contain special characters like '-'. Some languages may allow underscores ('_') in identifiers, but '-' is not typically allowed.
+
+(v) roll.no: This is a valid identifier. It uses a period ('.') to separate words, which is common in identifiers.
+
+(vi) lambda: This is an incorrect identifier. "lambda" is a reserved keyword in many programming languages used to define anonymous functions. Using reserved keywords as identifiers is not allowed.
+
+(vii) lab man: This is a valid identifier, but it's not very descriptive. It's generally recommended to use more meaningful names for variables, but syntactically it's correct.
+
+(viii) int result: This is a valid identifier. It follows the convention of using lowercase letters for variable names and separates words with an underscore.
+
+In summary, the incorrect identifiers are:
+(iii) double
+(iv) Rs-ps
+(vi) lambda
+
+<br>
+Classify the following constants as decimal, octal or hexadecimal:
+(i) 0234
+(ii) - 0456
+(iii) 0xAB56
+(iv) - 468734689
+(v) - 0x38
+(vi) 22
+
+Let's classify each constant:
+
+(i) 0234: This constant begins with '0', which typically denotes an octal constant. So, 0234 is an octal constant.
+
+(ii) -0456: This constant starts with a '-' sign followed by digits. The '-' sign indicates it's a negative decimal constant. So, -0456 is a decimal constant.
+
+(iii) 0xAB56: This constant begins with '0x', which indicates a hexadecimal constant. So, 0xAB56 is a hexadecimal constant.
+
+(iv) -468734689: This constant starts with a '-' sign followed by digits. The '-' sign indicates it's a negative decimal constant. So, -468734689 is a decimal constant.
+
+(v) -0x38: This constant starts with a '-' sign followed by '0x', indicating a negative hexadecimal constant. So, -0x38 is a hexadecimal constant.
+
+(vi) 22: This constant consists only of digits, and it doesn't have any prefix like '0' for octal or '0x' for hexadecimal. So, 22 is a decimal constant.
+
+In summary:
+(i) 0234: Octal constant
+(ii) -0456: Decimal constant
+(iii) 0xAB56: Hexadecimal constant
+(iv) -468734689: Decimal constant
+(v) -0x38: Hexadecimal constant
+(vi) 22: Decimal constant
